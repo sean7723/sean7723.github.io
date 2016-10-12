@@ -1,20 +1,14 @@
 p {
-  color: #00cef5;
   font-size: 20px;
   text-align: center;
 }
 
 body{
-  background-color: black;
-  color: white;
+  background-color: #00b2ee;
   text-align: center;
 }
 
 .hidden-links{
   text-decoration: none;
   color: white;
-}
-
-title{
-  text-decoration-line: underline;
 }
