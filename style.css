@@ -1,5 +1,11 @@
 p {
-  color: green;
+  color: #00cef5;
   font-size: 20px;
   text-align: center;
+}
+
+body{
+  background-color: black;
+  color: white;
+
 }
