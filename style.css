@@ -7,9 +7,14 @@ p {
 body{
   background-color: black;
   color: white;
+  text-align: center;
 }
 
 .hidden-links{
   text-decoration: none;
   color: white;
+}
+
+title{
+  text-decoration-line: underline;
 }
