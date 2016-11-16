@@ -15,17 +15,17 @@ body{
   
 @media screen and (min-width: 400px) and (max-width: 800px) {
     body{
-      background-color:green;
+      background-color: green;
   }
 }
 @media screen and (min-width: 800px) and (max-width: 1000px) {
     body{
-      background-color:blue;
+      background-color: blue;
   }
 }
   
 @media screen and (min-width: 1000px) {
     body{
-      background-color:red;
+      background-color: red;
   }
 }
