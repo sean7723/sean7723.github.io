@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Sean's Personal Page</title>
-
-    <link rel = "stylesheet" href = "style.css">
     
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -21,9 +20,9 @@
     <![endif]-->
   </head>
   <body>
-    <div class = "center-block, text-primary"> Sean Chiu a Nerd </div>
-    <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSRA5-2-xYEpsZMIiskCNiWAPlIdBlWgVLfYM48k-pTcwp147LYy45tDXaOqw"/>
-    <p> Hello, welcome to my webpage. I am a student at University at Buffalo. I am currently majoring in Computer Science
+<!--    <div class = "text-center text-primary heading"> <strong> Sean Chiu a Nerd </strong> </div>
+    <p class = "text-center"> <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSRA5-2-xYEpsZMIiskCNiWAPlIdBl WgVLfYM48k-pTcwp147LYy45tDXaOqw"/> </p>
+    <p class = "text-center"> Hello, welcome to my webpage. I am a student at University at Buffalo. I am currently majoring in Computer Science
         and is creating this web page for CSE 199. I just had CSE 115 before this class. I used to swim and I am a certified
       life guard. I may or may not know what I am doing most of the time. My usual in-game-name (ign) is iCheerios.</p>
     <div> My League of Legends Profile <a class = "hidden-links" href = "http://na.op.gg/summoner/userName=iCheerios"> found here </a> </div>
@@ -35,7 +34,48 @@
       <li> Sleep </li>
       <li> Play Video Games </li>
       <li> Hang out with family </li>
-    </div>
+    </div> -->
+	
+	<nav class = "navbar navbar-inverse">
+		<div class = "container-fluid">
+		
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target="#navBar">
+					<span class = "icon-bar"> </span>
+					<span class = "icon-bar"> </span>
+					<span class = "icon-bar"> </span>
+				</button>
+				<p class = "navbar-brand"> Sean Chiu </p>
+			</div>
+			
+			<div class = "collapse navbar-collapse" id = "navBar">
+				<ul class = "nav navbar-nav">
+					<li class = "active"> <a href = "final.html"> Home </a> </li>
+					<li> <a href = "finalAbout.html"> About </a> </li>
+					<li> <a href = "finalProjects.html"> Projects </a> </li>
+				</ul>
+			</div>
+			
+		</div>
+	</nav>
+	
+	<div class = "container-fluid">
+		<h1>
+			<div class = "text-center text-primary heading text-underline"> 
+					<strong style = "color: gray"> 
+						<u> 
+							Sean Chiu a Nerd 
+						</u> 
+					</strong> 
+			</div>
+		</h1>
+		
+		<div class = "text-center container" style = "color: gray">
+			<p class = "text-center img-responsive" > <img src = "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSRA5-2-xYEpsZMIiskCNiWAPlIdBl WgVLfYM48k-pTcwp147LYy45tDXaOqw" width = "250" height = "250"/> </p>
+			<p> Hello, welcome to my webpage. I am a student at University at Buffalo. I am currently majoring in Computer Science
+				and is creating this web page for CSE 199. I just had CSE 115 before this class. I used to swim and I am a certified
+			  life guard. I may or may not know what I am doing most of the time. My usual in-game-name (ign) is iCheerios.</p>
+	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
