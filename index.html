@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 	  
+    <script src = "coinCount.js"> </script>
+	  
     <title>Sean's Personal Page</title>
     
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -74,6 +76,29 @@
 			<p> Hello, welcome to my webpage. I am a student at University at Buffalo. I am currently majoring in Computer Science
 				and is creating this web page for CSE 199. I just had CSE 115 before this class. I used to swim and I am a certified
 			  life guard. I may or may not know what I am doing most of the time. My usual in-game-name (ign) is iCheerios.</p>
+	</div>
+	
+	<div class = "text-center container" style = "color: gray">
+		<h2> <u> Let me add up your coin values </u> </h2>
+		<h3 id = "totalMoney"> Total: $0.00 </h3>
+		<div class = "row"> 
+			<div class = "col-md-3" id = "numQuarter"> Quarters: 0 </div>
+			<div class = "col-md-3" id = "numDime"> Dimes : 0 </div>
+			<div class = "col-md-3" id = "numNickel">  Nickels : 0 </div>
+			<div class = "col-md-3" id = "numPenny">  Pennies : 0 </div>
+		</div>
+		<div class = "row"> 
+			<button class = "col-md-3 col-xs-3 btn btn-primary" onclick = "incrementMoney(0)"> Add Quarter </button>
+			<button class = "col-md-3 col-xs-3 btn btn-secondary" onclick = "incrementMoney(1)"> Add Dime </button>
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(2)"> Add Nickel </button>
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(3)">  Add Penny </button>
+		</div>
+		<div class = "row"> 
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(4)"> Minus Quarter </button>
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(5)"> Minus Dime </button>
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(6)"> Minus Nickel </button>
+			<button class = "col-md-3 col-xs-3" onclick = "incrementMoney(7)">  Minus Penny </button>
+		</div>
 	</div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
